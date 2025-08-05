@@ -33,11 +33,8 @@ const HomeScreen = ({navigation}: Props) => {
   return (
     <>
       <Header title={''} navigation={navigation} />
-
         <ScrollView style={styles.container}>
-
           <Text style={styles.heading}>🌤 Current Weather</Text>
-
           {weather ? (
             <View style={styles.card}>
               <Text style={styles.text}>
