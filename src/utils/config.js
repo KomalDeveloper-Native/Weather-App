@@ -1,1 +1,1 @@
-export let baseURL = 'https://dummyjson.com/';
+export let baseURL = '';
